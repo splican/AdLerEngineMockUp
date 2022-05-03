@@ -15,7 +15,8 @@
             },
                 extend: {
                     dropShadow: {
-                        'adler': '2px 2px rgba(0, 0, 0, 0.9)'
+                        'adler': '2px 2px rgba(0, 0, 0, 0.9)',
+                        'none': '0 0 0 rgba(0,0,0,0)'
                     },
                     colors: {
                         babylonbg: "#33334d", //Babylon Default Hintergrundfarbe
@@ -39,14 +40,14 @@
     <div class="w-full h-screen bg-adlerbrown m-auto justify-center">
         
         <div class="mt-2 lg:mt-6 absolute px-12 w-full h-12 grid grid-cols-7 justify-between ">
-            <button class="flex flex-row gap-x-2 items-center drop-shadow-adler">
+            <button class="flex flex-row gap-x-2 items-center">
                 <img class="h-12" src="src\22-04-07_adLer_flat_logo_simple.svg" alt=""> 
-                <i class="text-align-center align-middle text-white text-sm bg-indigo-600 rounded-md p-1 material-icons">dehaze</i>  
+                <i class="text-align-center align-middle text-white text-sm bg-adlerblue rounded-md p-1 material-icons drop-shadow-adler active:drop-shadow-none">dehaze</i>  
             </button>
 
-            <button class="flex flex-row gap-x-2 items-center justify-self-center drop-shadow-adler">
-                <h2 class="text-white font-bold text-lg lg:text-2xl">Lernelemente</h2>
-                <i class="text-align-center align-middle text-white text-sm bg-indigo-600 rounded-md p-1 material-icons">arrow_downward</i>  
+            <button class="flex flex-row gap-x-2 items-center justify-self-center">
+                <h2 class="text-white font-bold text-lg lg:text-2xl drop-shadow-adler">Lernelemente</h2>
+                <i class="text-align-center align-middle text-white text-sm bg-adlerblue rounded-md p-1 material-icons drop-shadow-adler active:drop-shadow-none">arrow_downward</i>  
             </button>
 
             <button class="flex flex-row gap-x-2 items-center justify-self-center col-span-3 drop-shadow-adler">
@@ -56,7 +57,9 @@
                     <h3 class="text-white text-sm lg:text-3xl font-bold">Metriken</h3>
                 </div>  
             </button>
+            
             <div></div>
+
             <button class="flex flex-row gap-x-2 items-center object-center justify-self-end order-last drop-shadow-adler">            
                 <img class="h-12" src="src\22-04-08_abzeichen_gold.svg" alt=""> 
                 <h2 class="text-white font-bold text-xl lg:text-3xl ">x4</h2>
