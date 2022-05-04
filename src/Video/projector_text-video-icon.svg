@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2001 2001" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-31389,-2142)">
+        <g id="projector_text-icon" transform="matrix(1,0,0,1,31389.9,2142.15)">
+            <rect x="0" y="0" width="2000" height="2000" style="fill:none;"/>
+            <g id="Projektor_Leinwand" transform="matrix(1.26449,0,0,1.26449,-205.275,-286.579)">
+                <g id="Halter" transform="matrix(1,0,0,1,-16.6704,0)">
+                    <path d="M969.948,1643.59L1207.92,1780.98C1217.88,1786.73 1230.63,1783.32 1236.38,1773.36C1242.13,1763.4 1238.71,1750.65 1228.76,1744.9L990.782,1607.51L990.782,272C990.782,260.502 981.447,251.167 969.948,251.167C958.45,251.167 949.115,260.502 949.115,272L949.115,1607.51C949.115,1607.51 713.367,1743.62 713.367,1743.62C703.409,1749.36 699.993,1762.12 705.742,1772.07C711.491,1782.03 724.243,1785.45 734.201,1779.7L969.948,1643.59Z" style="fill:rgb(23,45,79);"/>
+                </g>
+                <g id="Projektionsstoff" transform="matrix(1.31204,0,0,1.20188,-297.149,-133.125)">
+                    <rect x="426.566" y="438.278" width="1054.65" height="946.542" style="fill:rgb(229,188,113);"/>
+                </g>
+                <g id="Projektion" transform="matrix(1.23071,0,0,0.943811,-219.572,123.346)">
+                    <path d="M1481.22,485.605C1481.22,459.484 1464.95,438.278 1444.92,438.278L462.86,438.278C442.829,438.278 426.566,459.484 426.566,485.605L426.566,1337.49C426.566,1363.61 442.829,1384.82 462.86,1384.82L1444.92,1384.82C1464.95,1384.82 1481.22,1363.61 1481.22,1337.49L1481.22,485.605Z" style="fill:rgb(224,229,235);"/>
+                </g>
+                <g id="Unterer_Halter" transform="matrix(1.31204,0,0,1.20188,-293.713,-133.125)">
+                    <g transform="matrix(0.64699,0,0,0.64699,1220.48,1074.24)">
+                        <circle cx="415.692" cy="464" r="60.862" style="fill:rgb(23,45,79);"/>
+                    </g>
+                    <g transform="matrix(1.02792,0,0,0.659769,-25.651,1067.45)">
+                        <rect x="426.566" y="406.278" width="1047.65" height="118.583" style="fill:rgb(23,45,79);"/>
+                    </g>
+                    <g transform="matrix(0.643365,0,0,0.643365,145.448,1076.13)">
+                        <circle cx="415.692" cy="464" r="60.862" style="fill:rgb(98,142,208);"/>
+                    </g>
+                </g>
+                <g id="Oberer_Halter" transform="matrix(1.31204,0,0,1.20188,-297.805,-133.125)">
+                    <g transform="matrix(1,0,0,1,1066.52,0.0157348)">
+                        <circle cx="415.692" cy="464" r="60.862" style="fill:rgb(23,45,79);"/>
+                    </g>
+                    <g transform="matrix(1.01172,0,0,1.02496,-10.2822,-13.1895)">
+                        <rect x="426.566" y="406.278" width="1047.65" height="118.583" style="fill:rgb(23,45,79);"/>
+                    </g>
+                    <g transform="matrix(1,0,0,1,10.8737,-1.03029e-13)">
+                        <circle cx="415.692" cy="464" r="60.862" style="fill:rgb(98,142,208);"/>
+                    </g>
+                </g>
+                <g transform="matrix(1.96629,0,0,1.96629,-797.919,-280.647)">
+                    <text x="665.108px" y="691px" style="font-family:'Roboto-Black', 'Roboto';font-weight:900;font-size:160.545px;fill:rgb(23,45,79);">VIDEO</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

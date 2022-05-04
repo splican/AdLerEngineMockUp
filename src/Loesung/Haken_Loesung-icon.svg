@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2001 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-23542,-2459)">
+        <g id="haken-loesung-icon" transform="matrix(1,0,0,1,21334.1,2459)">
+            <rect x="2208.33" y="0" width="2000" height="2000" style="fill:none;"/>
+            <g transform="matrix(1,0,0,1,0.333333,0)">
+                <path d="M2787.79,1310.81L2476.98,1000L2239,1237.98L2785.59,1784.57L2787.36,1782.81L2789.13,1784.57L4173.72,399.981L3936.17,162.426L2787.79,1310.81Z" style="fill:rgb(27,177,27);stroke:black;stroke-width:41.67px;"/>
+            </g>
+        </g>
+    </g>
+</svg>
