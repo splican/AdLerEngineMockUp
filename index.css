@@ -1,12 +1,5 @@
-details {
-  summary {
-    list-style: none;
-      
-    :focus {
-      outline: none;
-    }
-    ::-webkit-details-marker {
-      display: none;
-    }
-  }
+details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+details > summary::-webkit-details-marker /* Safari */ {
+  /*display: none;*/
+  font-size: 0px;
 }
