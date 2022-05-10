@@ -3,3 +3,7 @@ details > summary::-webkit-details-marker /* Safari */ {
   /*display: none;*/
   font-size: 0px;
 }
+
+area:hover{
+  cursor: pointer;
+}
