@@ -1,3 +1,3 @@
-var leftMenu = document.getElementById("mainMenu");
+let leftMenu = document.getElementById("mainMenu");
 
 leftMenu.style.display = "none";
