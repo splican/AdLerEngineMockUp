@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdLer 0.1 UI MockUp</title>
+    <title>AdLer 0.2 UI MockUp</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -37,68 +37,49 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/svg" href="/src/22-04-07_adLer_flat_logo_simplest.svg">
 
 </head>
 
 <body class="max-w-screen">
-    <div class="w-full h-screen bg-adlerbrown m-auto">
+    <div class="w-[100vw] bg-adlerbrown">
 
-        <div class="mt-2 lg:mt-6 absolute px-12 w-full h-12 grid grid-cols-7">
+        <div id="modalPicture">
+            <div id="content">
+                <header></header>
+                <img alt="">
+                <footer></footer>
+            </div>
+        </div>
 
-            <button class="flex flex-row gap-x-2 items-center">
+        <div class="mt-2 lg:mt-6 absolute px-12 w-[100vw] h-12 grid grid-cols-7">
+
+            <button onclick="HamburgerMenuSwitch()" class="flex flex-row gap-x-2 items-center">
                 <img class="w-12 lg:w-20" src="src\22-04-07_adLer_flat_logo_simple.svg" alt="">
                 <em class="text-align-center align-middle text-white text-sm lg:text-2xl bg-adlerblue rounded-md p-1 material-icons drop-shadow-adler active:drop-shadow-none">dehaze</em>
             </button>
 
-            <div id="mainMenu" className="fixed left-20 top-10">
-                <ul>
+            <div id="HamburgerMenu" class="text-white w-64 lg:w-72 fixed left-12 lg:left-20 lg:ml-12 mt-2 top-6 lg:top-24 items-center justify-self-center">
+                <ul class="flex flex-col gap-2 mt-3">
                     <li class="flex flex-row">
-                        <img class="w-4 lg:w-6 drop-shadow-adler m-1" src="src/Bild/bild-icon.svg" alt="Bild">
-                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Definition Metriken</h3>
+                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Hauptmenü</h3>
                     </li>
                     <li class="flex flex-row">
-                        <img class="w-4 lg:w-6 drop-shadow-adler m-1" src="src/Text/Zettel_gold_text-icon_2.svg" alt="Text">
-                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Wozu Metriken?</h3>
-                    </li class="flex flex-row">
+                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Einstellungen</h3>
+                    </li>
                     <li class="flex flex-row">
-                        <img class="w-4 lg:w-6 drop-shadow-adler m-1" src="src/Video/screen_button-video-icon.svg" alt="Video">
-                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Metriken Teil I</h3>
+                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Hilfe</h3>
                     </li>
                 </ul>
             </div>
-
-            <!-- Auskommentiert wg. .js
-            <details class="text-white w-64 lg:w-72 fixed left-12 lg:left-20 lg:ml-12 mt-2 top-6 lg:top-14 items-center justify-self-center">
-                <summary className=></summary>
-                <ul>
-                    <li class="flex flex-row">
-                        <img class="w-4 lg:w-6 drop-shadow-adler m-1" src="src/Bild/bild-icon.svg" alt="Bild">
-                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Definition Metriken</h3>
-                    </li>
-                    <li class="flex flex-row">
-                        <img class="w-4 lg:w-6 drop-shadow-adler m-1" src="src/Text/Zettel_gold_text-icon_2.svg" alt="Text">
-                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Wozu Metriken?</h3>
-                    </li class="flex flex-row">
-                    <li class="flex flex-row">
-                        <img class="w-4 lg:w-6 drop-shadow-adler m-1" src="src/Video/screen_button-video-icon.svg" alt="Video">
-                        <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Metriken Teil I</h3>
-                    </li>
-                </ul>
-            </details>
-            -->
-
-            <button class="flex flex-row gap-x-2 items-center justify-self-center">
+            
+            <button onclick="LearningElementMenuSwitch()" class="flex flex-row gap-x-2 items-center justify-self-center">
                 <h2 class="text-white font-bold text-lg lg:text-4xl drop-shadow-adler">Lernelemente</h2>
                 <em class="text-align-center align-middle text-white text-sm lg:text-2xl bg-adlerblue rounded-md p-1 material-icons drop-shadow-adler active:drop-shadow-none">arrow_downward</em>
             </button>
 
-            <details
-                class="text-white w-64 lg:w-72 fixed left-32 lg:left-96 lg:ml-12 top-6 lg:top-14 items-center justify-self-center">
-                <summary class="">
-
-                </summary>
+            <div id="LearningElementMenu" class="text-white w-64 lg:w-72 fixed left-32 lg:left-72 lg:ml-12 top-6 lg:top-24 items-center justify-self-center">
                 <ul class="flex flex-col gap-2 mt-3">
-
                     <li class="flex flex-row">
                         <img class="w-4 lg:w-6 drop-shadow-adler m-1" src="src/H5P/h5p_icon.svg" alt="H5P">
                         <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Metriken Teil II</h3>
@@ -121,7 +102,7 @@
                         <h3 class="text-white font-bold text-sm lg:text-lg drop-shadow-adler">Schiebespiel Metriken</h3>
                     </li>
                 </ul>
-            </details>
+            </div>
 
             <button class="flex flex-row gap-x-2 items-center justify-self-center col-span-3 drop-shadow-adler">
                 <img class="w-12 lg:w-20" src="src\22-04-05_Lernraum_icon.svg" alt="">
